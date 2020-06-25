@@ -1,68 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Movies System
+======================================================================
 
-## Available Scripts
+###Running
+---------------------------------------------------------------------------------------------------------------------------
+Para executar este projeto você irá precisar ter instalado na máquina o nodejs e json-server
+antes de iniciar execute o json-server com o comando **json-server --watch ./db.json --port 3333** após o json-server ser iniciado basta executar npm start e aguardar o navegador abrir a janela com o projeto em execução na url [https://localhost:3000/]
+A organização do sistema de arquivos é feita baseada nas páginas presentes no projeto, cada página pode ser encontrada dentro da pasta src assim como uma pasta chamada hooks que contém os helpers usados no projeto, sejam eles de requests, sejam partials utilizadas em mais de uma página, as páginas e partials possuem arquivos sass próprio para lidar com estilização individual das páginas.
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+###A experiência de criação do projeto
+---------------------------------------------------------------------------------------------------------------------------
+Eu nunca tinha usado o sass antes, ele resolveu problemas que eu não sabia que tinha, acabou sendo uma ferramenta muito agradável de usar durante o projeto tornando o arquivo de estilos mais facilmente legível e com menos ponto e vírgula, isso realmente tornou o processo mais simples evitando erros de typo.
+Eu aprendi a usar React sem um uso muito intensivo de hooks, mas quando comecei a usá-los realmente vi uma mudança positiva no meu uso da biblioteca, eles deixam o code smells muito melhor no projeto em geral quando comparados às classes.
+Ainda tenho muito espaço para melhorar nas boas práticas de código, alguma das opções que eu fiz durante o projeto nesse aspecto estão mais relacionadas a práticas adotadas em outras linguagens e frameworks e não específicas do React em si, portanto acho que preciso de mais contato com isso para melhorar.
